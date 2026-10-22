@@ -36,7 +36,11 @@ export default function Home() {
                 Organisez vos projets, gérez vos délais et transformez vos idées
                 en résultats concrets
               </p>
-              <button className="btn btn-primary text-xl p-6">Commencer</button>
+              <Link href="/register">
+                <button className="btn btn-primary text-xl p-6">
+                  Commencer
+                </button>
+              </Link>
             </div>
           </div>
         </div>
